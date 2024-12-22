@@ -1,0 +1,42 @@
+.parent{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.last-img{
+    width: 480px;
+    height: auto;
+}
+.info {
+    padding: 30px 0px 0px 40px  ;
+    
+}
+.tilte-info{
+   font-size: 30px;
+   font-weight: bolder;
+}
+.description-info{
+    font-size: 25px;
+}
+
+.info strong{
+    font-size: 30px;
+    font-weight: 600;
+}
+.count-icon{
+    font-size: 30px;
+    padding: 5px;
+}
+.count-icon:hover{
+    cursor: pointer;
+}
+.count{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.count span{
+    font-size: 35px;
+    padding: 5px;
+}

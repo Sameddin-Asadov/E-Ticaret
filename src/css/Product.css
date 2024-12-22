@@ -1,0 +1,40 @@
+.image{
+    width: 216px;
+    height: 280px;
+}
+.card{
+    width: 280px;
+    height: 430px;
+    box-shadow: 1px 4px 3px lightgray;
+    border-radius: 12px;
+    margin: 10px;
+    
+}
+.product-title{
+    height: 48px;
+}
+.card:hover{
+    box-shadow: 1px 4px 3px rgb(19, 18, 18);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.product-info{
+    align-items: center;
+}
+.product-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(73, 72, 72);
+    color: #fff;
+}
+.product-btn:hover{
+    background-color: rgb(113, 113, 119);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.product-info strong{
+   margin-left: 8px;
+}

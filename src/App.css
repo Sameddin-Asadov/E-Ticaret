@@ -1,0 +1,24 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.flex-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.flex-colum{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#root{
+  height: 100vh;
+}
+.productslist{flex-wrap: wrap;
+margin-top: 25px;}
